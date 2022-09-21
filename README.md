@@ -1,7 +1,6 @@
 # New-Grad-EU
 
-**Description**
-
+### Description ###
 www.newgrad.eu will be a job board application that will aim to provide computer science\
 students and graduates the best experience when they search for open positions across\
 EEA + UK.\
@@ -9,11 +8,11 @@ The application will ensure that users who seek employment will spend less time 
 irrelevant jobs, by providing powerful filters like **specialization** *(Software, Machine Learning,\
 Data science, ...)*, required **education level** *(Bachelor Degree, Masters Degree, PhD)* and more.\
 
-**Why is this application better**
+### How will this application be competitive? ###
 
 There are a lot of job board applications already, the most popular among them are LinkedIn,\
 Indeed and Glassdoor. NewGrad plans to outshine them by providing quality over quantity.\
-The most important features to be implemented are\
+The most important features to be implemented are:\
 &emsp;• **Powerful filters**:\
 &emsp;&emsp;This will help ensure that users seeking jobs will not spend time
 looking at irrelevant jobs by\
