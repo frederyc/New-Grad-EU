@@ -26,6 +26,13 @@ looking at irrelevant jobs by\
 &emsp;&emsp;and is hiring directly for the company (no sourcing companies).\
 &emsp;&emsp;Job seeking users can create an account using their email or sign up via google or facebook.
 
+### Tech stack ###
+
+&emsp;• **ReactJS**
+&emsp;• **MaterialUI**
+&emsp;• **Java Spring**
+&emsp;• **AWS**
+
 ### Screenshots
 
 ![New Grad Eu](https://user-images.githubusercontent.com/64581539/192791932-35bac2ca-26e5-416e-9d0c-3a0469bc8231.png)
