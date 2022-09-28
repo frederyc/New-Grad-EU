@@ -28,3 +28,6 @@ looking at irrelevant jobs by\
 &emsp;&emsp;email address. Their request to create an account will be handled manually by an admin,\
 &emsp;&emsp;this is to ensure that recruiter are real and are hiring directly for the company (no sourcing\
 &emsp;&emsp;companies).
+
+### Screenshots
+![Screenshot_6](https://user-images.githubusercontent.com/64581539/192791498-5b5ca33d-4559-4b5a-8c6c-fe323dc7470b.png)
