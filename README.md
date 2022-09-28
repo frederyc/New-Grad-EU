@@ -6,7 +6,7 @@ students and graduates the best experience when they search for open positions a
 EEA + UK.\
 The application will ensure that users who seek employment will spend less time looking at\
 irrelevant jobs, by providing powerful filters like **specialization** *(Software, Machine Learning,\
-Data science, ...)*, required **education level** *(Bachelor Degree, Masters Degree, PhD)* and more.\
+Data science, ...)*, required **education level** *(Bachelor Degree, Masters Degree, PhD)* and more.
 
 ### How will this application be competitive? ###
 
