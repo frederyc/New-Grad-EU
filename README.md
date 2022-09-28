@@ -8,7 +8,7 @@ EEA + UK.
 ### How will this application be competitive? ###
 
 There are a lot of job board applications already, the most popular among them are LinkedIn,\
-Indeed and Glassdoor. NewGrad plans to outshine them by providing quality over quantity and 
+Indeed and Glassdoor. NewGrad plans to outshine them by providing quality over quantity and\
 impose rules job descriptions.\
 The most important features to be implemented are:\
 &emsp;• **Powerful filters**:\
