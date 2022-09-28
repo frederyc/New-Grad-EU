@@ -8,24 +8,23 @@ EEA + UK.
 ### How will this application be competitive? ###
 
 There are a lot of job board applications already, the most popular among them are LinkedIn,\
-Indeed and Glassdoor. NewGrad plans to outshine them by providing quality over quantity and\
-impose rules for job descriptions.\
-The most important features to be implemented are:\
+Indeed and Glassdoor. NewGrad plans to outshine them by providing quality over quantity, by \
+implementing the following features:\
 &emsp;• **Powerful filters**:\
 &emsp;&emsp;This will help ensure that users seeking jobs will not spend time
 looking at irrelevant jobs by\
 &emsp;&emsp;providing features such as **specialization** *(Software, Machine Learning, Data Science, ...)*,\
 &emsp;&emsp;required **education level** *(Bachelor Degree, Masters Degree, PhD)* and many more.\
 &emsp;• **Relevance**:\
-&emsp;&emsp;NewGrad will strive to have quality content and will rely on its community for that. Entries\
-&emsp;&emsp;posted are guaranteed to match their **seniority level**, users can report job posts that, for\
-&emsp;&emsp;example, require 5+ years of experience for a junior position.\
-&emsp;• **Authentication**:\
-&emsp;&emsp;Creating an account for a user who seeks employment will be basic, email+password and\
-&emsp;&emsp;other authentication methods. Recruiters can only create an account using their company\
-&emsp;&emsp;email address. Their request to create an account will be handled manually by an admin,\
-&emsp;&emsp;this is to ensure that recruiter are real and are hiring directly for the company (no sourcing\
-&emsp;&emsp;companies).
+&emsp;&emsp;NewGrad plans to provide its users the best experience possible when searching for a job and\
+&emsp;&emsp;its doing so by empowering job seekers, for example, with an option to report a job that does\
+&emsp;&emsp;not meet our guidlines will be available *(ex: an internship position requiring 2+ yoe)*, careful\
+&emsp;&emsp;filtering of the companies to avoid scam and promotional unrelated to the job.\
+&emsp;• **Authenticity**:\
+&emsp;&emsp;Recruiters can only create an account using their company email address. Their request to\
+&emsp;&emsp;create an account will be handled manually by an admin, this is to ensure that recruiter is real\
+&emsp;&emsp;and is hiring directly for the company (no sourcing companies).\
+&emsp;&emsp;Job seeking users can create an account using their email or sign up via google or facebook.
 
 ### Screenshots
 
