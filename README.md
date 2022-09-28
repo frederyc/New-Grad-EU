@@ -3,10 +3,7 @@
 ### Description ###
 www.newgrad.eu will be a job board application that will aim to provide computer science\
 students and graduates the best experience when they search for open positions across\
-EEA + UK.\
-The application will ensure that users who seek employment will spend less time looking at\
-irrelevant jobs, by providing powerful filters like **specialization** *(Software, Machine Learning,\
-Data science, ...)*, required **education level** *(Bachelor Degree, Masters Degree, PhD)* and more.
+EEA + UK.
 
 ### How will this application be competitive? ###
 
