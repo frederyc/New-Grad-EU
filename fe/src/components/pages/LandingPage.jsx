@@ -4,12 +4,18 @@ import JobSeeker from '../../resources/vectors/undraw_updated_resume_re_7r9j.svg
 import Recruiter from '../../resources/vectors/undraw_hiring_re_yk5n.svg';
 import RegisterCard from '../cards/RegisterCard';
 import LandingCarousel from "../carousels/LandingCarousel";
+import {useState} from "react";
+import JobSeekerForm from "../dialogs/JobSeekerForm";
+import RecruiterForm from "../dialogs/RecruiterFrom";
 
 /**
  * Landing page, the first page a user that doesn't have
  * an account should experience
  */
 const LandingPage = () => {
+  const [jobSeekerRegisterOpen, setJobSeekerRegisterOpen] = useState(false);
+  const [recruiterRegisterOpen, setRecruiterRegisterOpen] = useState(false);
+
   return (
       <Box id={'landing-page'} sx={{
         padding: '2% 4% 2% 4%',
@@ -36,7 +42,8 @@ const LandingPage = () => {
               gap: '3em',
               '@media (max-width: 728px)': {
                 order: 1,
-                gap: '1em'
+                gap: '1em',
+                marginBottom: '1em'
               }
             }}>
               <Typography sx={{
@@ -47,23 +54,39 @@ const LandingPage = () => {
                   fontSize: '3.5em',
                   margin: '-20px 15px -10px 15px'
                 }
-              }} variant={'h1'} component={'h1'}>I am looking for...</Typography>
+              }} variant={'h1'} component={'h1'}>
+                I am looking
+              </Typography>
+              <Typography sx={{
+                fontSize: '8em',
+                cursor: 'default',
+                margin: '-0.5em 40px 0px 40px',
+                '@media (max-width: 728px)': {
+                  fontSize: '3.5em',
+                  margin: '-20px 15px -10px 15px'
+                }
+              }} variant={'h1'} component={'h1'}>
+                for...
+              </Typography>
               <Box sx={{
                 display: 'flex',
                 gap: '2.5em',
                 justifyContent: 'center',
+
                 '@media (max-width: 728px)': {
                   gap: '1em'
                 }
               }}>
-                <RegisterCard img={JobSeeker} text={'My dream job'} path={'/job-seeker-register'}/>
-                <RegisterCard img={Recruiter} text={'Fresh graduates'} path={'/recruiter-register'}/>
+                <RegisterCard img={JobSeeker} text={'My dream job'} setOpen={setJobSeekerRegisterOpen}/>
+                <JobSeekerForm open={jobSeekerRegisterOpen} setOpen={setJobSeekerRegisterOpen}/>
+                <RegisterCard img={Recruiter} text={'Fresh graduates'} setOpen={setRecruiterRegisterOpen}/>
+                <RecruiterForm open={recruiterRegisterOpen} setOpen={setRecruiterRegisterOpen} />
               </Box>
             </Box>
             <Box sx={{
               width: '100%',
               height: '100%',
-              order: 0
+              order: 0,
             }}>
               <LandingCarousel />
             </Box>
