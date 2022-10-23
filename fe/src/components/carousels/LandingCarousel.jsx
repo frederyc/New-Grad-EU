@@ -23,14 +23,14 @@ const CarouselItem = ({img, text}) => {
         component={'img'}
         image={img}
         sx={{
-          width: '720px',
-          height: '520px',
+          width: '650px',
+          height: '470px',
           objectFit: 'contain',
           color: 'transparent',
           '@media (max-width: 728px)': {
             width: '100%',
             height: '300px',
-          }
+          },
         }}
       />
       <CardContent>

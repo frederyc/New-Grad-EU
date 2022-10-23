@@ -30,9 +30,9 @@ const LandingPage = () => {
           <Box sx={{
             display: 'flex',
             gap: '2em',
-            '@media (max-width: 728px)': {
-              flexDirection: 'column'
-            }
+            '@media (max-width: 1600px)': {
+              flexDirection: 'column',
+            },
           }}>
             <Box sx={{
               width: '100%',
@@ -40,14 +40,14 @@ const LandingPage = () => {
               display: 'flex',
               flexDirection: 'column',
               gap: '3em',
-              '@media (max-width: 728px)': {
+              '@media (max-width: 1600px)': {
                 order: 1,
                 gap: '1em',
                 marginBottom: '1em'
-              }
+              },
             }}>
               <Typography sx={{
-                fontSize: '8em',
+                fontSize: '5vw',
                 cursor: 'default',
                 margin: '0px 40px 0px 40px',
                 '@media (max-width: 728px)': {
@@ -58,7 +58,7 @@ const LandingPage = () => {
                 I am looking
               </Typography>
               <Typography sx={{
-                fontSize: '8em',
+                fontSize: '5vw',
                 cursor: 'default',
                 margin: '-0.5em 40px 0px 40px',
                 '@media (max-width: 728px)': {
@@ -70,11 +70,10 @@ const LandingPage = () => {
               </Typography>
               <Box sx={{
                 display: 'flex',
-                gap: '2.5em',
-                justifyContent: 'center',
-
+                gap: '2vw',
+                margin: '0px 0px 0px 40px',
                 '@media (max-width: 728px)': {
-                  gap: '1em'
+                  gap: '1vw'
                 }
               }}>
                 <RegisterCard img={JobSeeker} text={'My dream job'} setOpen={setJobSeekerRegisterOpen}/>

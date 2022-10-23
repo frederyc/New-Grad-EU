@@ -13,8 +13,8 @@ import {useState} from "react";
 const RegisterCard = ({img, text, setOpen}) => {
   return (
     <Card onClick={() => setOpen(true)} sx={{
-      height: '360px',
-      width: '360px',
+      height: '320px',
+      width: '320px',
       padding: '30px',
       borderRadius: '15px',
       boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px',
@@ -33,8 +33,8 @@ const RegisterCard = ({img, text, setOpen}) => {
           component={'img'}
           image={img}
           sx={{
-            height: '240px',
-            width: '310px',
+            height: '210px',
+            width: '280px',
             objectFit: 'contain',
             '@media (max-width: 728px)': {
               height: '105px',
@@ -49,6 +49,7 @@ const RegisterCard = ({img, text, setOpen}) => {
           textAlign: 'center',
           fontWeight: '550',
           marginTop: '20px',
+          fontSize: '1.8em',
           '@media (max-width: 728px)': {
             width: '100%',
             fontSize: '1em',
